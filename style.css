@@ -1,0 +1,9 @@
+/* Minimal custom styles */
+html { scroll-behavior: smooth; }
+/* Mobile menu link styles (when JS toggles visibility) */
+.mobile-link { padding: .5rem 0; font-weight: 600; }
+
+/* Small responsive helper */
+@media (max-width: 768px) {
+	.container { padding-left: 1rem; padding-right: 1rem; }
+}
